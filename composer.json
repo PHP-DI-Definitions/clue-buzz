@@ -22,7 +22,7 @@
     "extra": {
         "php-di-definitions": {
             "di": [
-                "etc/di/dns.php"
+                "etc/di/buzz.php"
             ]
         }
     },
