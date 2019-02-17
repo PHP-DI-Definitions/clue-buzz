@@ -15,7 +15,9 @@ return [
             $loop,
             new Connector(
                 $loop,
-                $resolver
+                [
+                    'dns' => $resolver,
+                ]
             )
         );
     }),
