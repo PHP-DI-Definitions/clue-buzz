@@ -9,16 +9,6 @@
     "require-dev": {
         "php-di/php-di": "^6.0"
     },
-    "autoload": {
-        "psr-4": {
-            "PHPDIDefinitions\\WyriMaps\\BattleNet\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "PHPDIDefinitions\\Tests\\WyriMaps\\BattleNet\\": "tests/"
-        }
-    },
     "extra": {
         "php-di-definitions": {
             "di": [
